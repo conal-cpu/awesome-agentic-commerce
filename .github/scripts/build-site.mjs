@@ -26,8 +26,8 @@ function page(title, bodyHtml, canonical, jsonld) {
 <link rel="icon" type="image/png" href="${BASE}/media/logo.png">
 <meta property="og:title" content="${title}"><meta property="og:description" content="${DESC}">
 <meta property="og:type" content="website"><meta property="og:url" content="${canonical}">
-<meta property="og:image" content="${BASE}/media/social-preview.png">
-<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="${BASE}/media/social-preview.png">
+<meta property="og:image" content="${BASE}/media/social-preview.jpg">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="${BASE}/media/social-preview.jpg">
 ${jsonld ? `<script type="application/ld+json">${JSON.stringify(jsonld)}</script>` : ''}
 <style>${css}</style></head><body>
 ${bodyHtml}
